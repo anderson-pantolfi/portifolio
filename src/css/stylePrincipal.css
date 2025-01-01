@@ -76,13 +76,19 @@
     background-color: var(--cor-amarelo);
 }
 
+#home {
+    background-color: var(--cor-azul-700);
+    height: 100vh;
+}
+
+
 #home #text{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 90vh;
-    background-color: var(--cor-azul-700);
+    padding-top: 150px;
+    height: 70vh;
 }
 
 #home h1, #home h6, #home p{ 
@@ -118,16 +124,52 @@ font-weight: 300;
     flex-direction: column;
     justify-items: flex-start;
     align-items: center;
-    height: 100vh;
     background-color: var(--cor-azul-800);
 }
 
 #sobre h1{
-    margin: 80px;
+    margin-top: 80px;
     font-family: "Poppins", serif;
-    font-size: 2em;
+    font-size: 2.5em;
     font-weight: 500;
     letter-spacing: 5px;
+    color: var(--cor-azul-100);
+}
+
+.button {
+    display: block;
+    margin: auto;
+    background-color: var(--cor-cinza-escuro);
+    padding: 20px;
+    border-radius: 15px;
+    border: 2px var(--cor-amarelo) double;
+    color: var(--cor-amarelo);  
+}
+
+.button:hover {
+    color: var(--cor-vermelho);
+    border: 2px var(--cor-vermelho) double;
+}
+
+#buttonbaixarCV{
+    margin-top: 50px;
+}
+
+#video {
+    width: 50%;
+}
+
+#text-sobre {
+    display: none;
+    margin: 30px;
+    width: 80%;
+    padding-bottom: 60px;
+}
+
+#text-sobre p{
+    margin-bottom: 30px;
+    font-family: "Poppins", serif;
+    text-align: center;
     color: var(--cor-azul-100);
 }
 
@@ -136,4 +178,8 @@ font-weight: 300;
     flex-direction: column;
     height: 100vh;
     background-color: var(--cor-azul-700);
+}
+
+#projetos{
+    height: 100vh;
 }
