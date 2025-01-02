@@ -140,7 +140,7 @@ font-weight: 300;
 
 .button {
     display: block;
-    margin: auto;
+    margin: 30px auto;
     background-color: var(--cor-cinza-escuro);
     padding: 20px;
     border-radius: 15px;
@@ -157,8 +157,28 @@ font-weight: 300;
     margin-top: 50px;
 }
 
-#video {
-    width: 50%;
+#divvideoAprentacao {
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+#divmediavideo{
+    width: 90%;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: var(--cor-cinza-escuro);
+    border: 3px var(--cor-amarelo) double;
+}
+
+#divmediavideo video{
+    display: block;
+    margin: auto;
+    width: 95%;
+    border: 3px black solid ;
 }
 
 #text-sobre {
@@ -196,7 +216,7 @@ font-weight: 300;
     padding-top: 50px;
     width: 200px;
     height: 200px;
-    border-top: 5px var(--cor-amarelo) double;
+    border: 5px var(--cor-amarelo) double;
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
 }
@@ -211,7 +231,7 @@ font-weight: 300;
 }
 
 .skills-icon:hover{
-    border-top: 5px var(--cor-vermelho) double;
+    border: 5px var(--cor-vermelho) double;
     
 }
 
