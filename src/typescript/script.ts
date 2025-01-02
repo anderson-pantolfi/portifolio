@@ -4,12 +4,12 @@ const buttonhabilitarVideo = document.getElementById("habilitarvideoapresentacao
 
 const divVideoApresentacao = document.getElementById("divvideoAprentacao") as HTMLDivElement;
 
-const divTextoApresentacao = document.getElementById("text-sobre") as HTMLDivElement;
+const divTextoApresentacao = document.getElementById("divtextoapresentacao") as HTMLDivElement;
 
 buttonDesabilitarVideo.addEventListener("click", ()=>{
     window.location.href = "index.html#sobre";
     divVideoApresentacao.style.display = "none";
-    divTextoApresentacao.style.display = "block";
+    divTextoApresentacao.style.display = "flex";
 })
 
 buttonhabilitarVideo.addEventListener("click", ()=>{
