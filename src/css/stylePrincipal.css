@@ -151,6 +151,8 @@ font-weight: 300;
 .button:hover {
     color: var(--cor-vermelho);
     border: 2px var(--cor-vermelho) double;
+    scale: 0.94;
+    cursor: pointer;
 }
 
 #buttonbaixarCV{
@@ -263,8 +265,8 @@ font-weight: 300;
 }
 
 .skills-icon:hover{
+    scale: 1.2;
     border: 5px var(--cor-vermelho) double;
-    
 }
 
 .icon{
@@ -287,6 +289,53 @@ font-weight: 300;
     height: 100vh;
 }
 
-#contatos{
-    height: 100vh;
+#conteinerContact{
+    margin-top: 100px;
+    margin-bottom: 150px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.divContacts{
+    background-color: var(--cor-cinza-escuro);
+    padding: 20px;
+    border: 2px var(--cor-amarelo) solid;
+    border-radius: 15px;
+}
+
+.divContacts:hover{
+    scale: 1.2;
+    border: 2px var(--cor-vermelho) solid;
+    cursor: pointer;
+}
+
+.divImageContacts{
+    width: 40%;
+    margin: 0px auto 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tituloContacts, .linkContacts{
+    font-family: "Poppins", serif;
+    color: white;
+    line-height: 45px;
+}
+
+.tituloContacts{
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.fa-envelope, .fa-linkedin{
+    margin-top: 15px;
+    font-size: 5em;
+    text-align: center;
+    color: white;
 }
